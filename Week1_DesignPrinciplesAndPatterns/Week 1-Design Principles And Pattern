@@ -1,0 +1,54 @@
+1. Singleton Pattern
+Principle: Ensure only one instance of a class exists throughout the application lifecycle.
+Use Case: Logging utility class.
+Benefit: Consistent logging, controlled access to a single shared resource.
+
+2. Factory Method Pattern
+Principle: Define an interface for creating objects, allowing subclasses to decide which class to instantiate.
+Use Case: Creating Word, PDF, and Excel documents.
+Benefit: Decouples object creation from client code, improves scalability and maintainability.
+
+3. Builder Pattern
+Principle: Construct complex objects step-by-step with customizable options using a builder.
+Use Case: Assembling a Computer object with optional components like CPU, RAM, Storage.
+Benefit: Simplifies object construction, especially when many optional parameters are involved.
+
+4. Adapter Pattern
+Principle: Convert the interface of a class into another interface that a client expects.
+Use Case: Integrating various third-party payment gateways with different interfaces.
+Benefit: Promotes reusability and interoperability of incompatible interfaces.
+
+5. Decorator Pattern
+Principle: Add new behavior to objects dynamically without altering their structure.
+Use Case: Sending notifications via Email, SMS, Slack, etc.
+Benefit: Flexible alternative to subclassing for extending functionality.
+
+6. Proxy Pattern
+Principle: Provide a surrogate or placeholder to control access to another object.
+Use Case: Lazy loading and caching of remote images.
+Benefit: Improves performance and reduces unnecessary resource usage.
+
+7. Observer Pattern
+Principle: Define a one-to-many dependency so that when one object changes state, all its dependents are notified.
+Use Case: Notifying multiple clients when stock prices update.
+Benefit: Promotes low coupling and real-time communication between objects.
+
+8. Strategy Pattern
+Principle: Define a family of algorithms, encapsulate each one, and make them interchangeable.
+Use Case: Selecting payment methods like Credit Card or PayPal at runtime.
+Benefit: Enables dynamic selection of behavior at runtime without if-else blocks.
+
+9. Command Pattern
+Principle: Encapsulate a request as an object, thereby allowing parameterization and queuing of requests.
+Use Case: Turning devices on/off using commands.
+Benefit: Decouples invoker from receiver, enables undo/redo and command history.
+
+10. MVC Pattern
+Principle: Separate application logic into Model, View, and Controller components.
+Use Case: Managing student records with distinct roles for data, UI, and interaction logic.
+Benefit: Promotes separation of concerns and easier maintainability.
+
+11. Dependency Injection
+Principle: Depend on abstractions rather than concrete implementations; inject dependencies externally.
+Use Case: Injecting a CustomerRepository into CustomerService.
+Benefit: Enhances testability, flexibility, and reduces tight coupling.
