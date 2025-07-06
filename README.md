@@ -8,3 +8,20 @@ Week 1:
 - Algorithms_Data Structures
 
 Updated: 22/06/2025
+
+Week 2:
+- PL/SQL programming
+- TDD using JUnit5 and Mockito
+- SLF4J logging framework
+
+Updated: 29/06/2025
+
+Week 3:
+- Spring Core and Maven
+- Spring Data JPA with Spring Boot, Hibernate
+
+
+Updated: 06/07/2025
+
+
+
