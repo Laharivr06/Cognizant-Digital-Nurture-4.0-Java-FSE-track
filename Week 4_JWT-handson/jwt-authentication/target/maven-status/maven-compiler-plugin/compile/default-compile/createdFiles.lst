@@ -1,0 +1,3 @@
+com\cognizant\jwt\controller\AuthController.class
+com\cognizant\jwt\JwtAuthApplication.class
+com\cognizant\jwt\config\SecurityConfig.class
