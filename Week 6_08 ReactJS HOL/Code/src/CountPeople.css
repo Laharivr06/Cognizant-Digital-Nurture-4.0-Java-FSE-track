@@ -1,0 +1,16 @@
+button{
+    background-color: rgb(127, 231, 127);
+    margin-right: 5px;
+    border-width: 1.5px;
+}
+.comp{
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
